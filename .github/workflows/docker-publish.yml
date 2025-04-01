@@ -29,7 +29,7 @@ jobs:
 
       - name: Build and Push Docker image
         env:
-          IMAGE_NAME: registry.cn-qingdao.aliyuncs.com/xdbin/nginx
+          IMAGE_NAME: registry.cn-qingdao.aliyuncs.com/xdbin/maven
           BRANCH: ${{ env.branch_name }}
         run: |
           docker build -t $IMAGE_NAME:$BRANCH .
