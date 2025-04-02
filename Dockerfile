@@ -1,1 +1,2 @@
-from openjdk:17-jdk-alpine
+from maven:3.8.5-openjdk-17
+
