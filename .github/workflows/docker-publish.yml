@@ -1,9 +1,14 @@
 name: Docker Build and Push
 
 on:
-  push:
-    branches:
-      - '**'
+  workflow_dispatch:
+    inputs:
+      image:
+        description: 'The Docker image'
+        required: true
+      tag:
+        description: 'Tag for the Docker image'
+        required: true
 
 jobs:
   build:
@@ -29,8 +34,8 @@ jobs:
 
       - name: Build and Push Docker image
         env:
-          IMAGE_NAME: registry.cn-qingdao.aliyuncs.com/xdbin/maven
-          BRANCH: ${{ env.branch_name }}
+          IMAGE_NAME: registry.cn-qingdao.aliyuncs.com/xdbin/${{ github.event.inputs.image }}
+          TAG: ${{ github.event.inputs.tag }}
         run: |
           docker build -t $IMAGE_NAME:$BRANCH .
           docker push $IMAGE_NAME:$BRANCH
