@@ -37,5 +37,5 @@ jobs:
           IMAGE_NAME: registry.cn-qingdao.aliyuncs.com/xdbin/${{ github.event.inputs.image }}
           TAG: ${{ github.event.inputs.tag }}
         run: |
-          docker build -t $IMAGE_NAME:$BRANCH .
-          docker push $IMAGE_NAME:$BRANCH
+          docker build -t $IMAGE_NAME:$TAG .
+          docker push $IMAGE_NAME:$TAG
