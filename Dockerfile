@@ -1,2 +1,2 @@
-from maven:3.8.5-openjdk-17
+from openjdk:17-oracle
 
