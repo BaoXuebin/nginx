@@ -1,2 +1,2 @@
-from node:18.18.2-alpine
+from node:18.18.2
 
