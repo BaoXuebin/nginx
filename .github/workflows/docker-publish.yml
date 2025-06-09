@@ -34,7 +34,7 @@ jobs:
 
       - name: Build and Push Docker image
         env:
-          IMAGE_NAME: registry.cn-qingdao.aliyuncs.com/yft-cloud/${{ github.event.inputs.image }}
+          IMAGE_NAME: registry.cn-qingdao.aliyuncs.com/xdbin/${{ github.event.inputs.image }}
           TAG: ${{ github.event.inputs.tag }}
         run: |
           docker build -t $IMAGE_NAME:$TAG .
