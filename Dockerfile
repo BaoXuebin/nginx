@@ -1,1 +1,1 @@
-FROM odoo:17.0
+FROM postgres:13
