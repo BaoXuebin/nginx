@@ -1,1 +1,1 @@
-FROM postgres:15
+FROM otel/opentelemetry-collector:latest
