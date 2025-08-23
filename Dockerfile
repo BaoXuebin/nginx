@@ -1,1 +1,1 @@
-FROM prom/prometheus:latest
+FROM grafana/grafana-oss:12.0.4
