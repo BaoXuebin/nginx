@@ -1,1 +1,1 @@
-FROM otel/opentelemetry-collector:latest
+FROM prom/prometheus:latest
