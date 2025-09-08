@@ -1,1 +1,1 @@
-FROM grafana/grafana-oss:12.0.4
+FROM node:20.19.5
