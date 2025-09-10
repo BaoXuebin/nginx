@@ -1,1 +1,1 @@
-FROM xdbin/xdbin-nav:main
+FROM mysql:5.6.51
