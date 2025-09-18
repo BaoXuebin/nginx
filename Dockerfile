@@ -1,1 +1,1 @@
-FROM mysql:5.6.51
+FROM quay.io/keycloak/keycloak:24.0.3
