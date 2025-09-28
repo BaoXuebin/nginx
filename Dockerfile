@@ -1,1 +1,1 @@
-FROM quay.io/keycloak/keycloak:24.0.3
+FROM redis:7.2-alpine
