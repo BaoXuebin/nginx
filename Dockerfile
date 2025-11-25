@@ -1,1 +1,1 @@
-FROM zabbix/zabbix-server-mysql:ubuntu-7.2.14
+FROM mysql:8.0
