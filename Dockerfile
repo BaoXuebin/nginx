@@ -1,1 +1,1 @@
-FROM zabbix/zabbix-java-gateway:ubuntu-7.2.14
+FROM zabbix/zabbix-web-nginx-mysql:ubuntu-7.2.14
