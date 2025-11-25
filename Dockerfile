@@ -1,1 +1,1 @@
-FROM redis:7.2-alpine
+FROM zabbix/zabbix-server-mysql:ubuntu-6.4-latest
