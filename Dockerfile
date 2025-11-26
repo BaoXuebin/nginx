@@ -1,1 +1,1 @@
-FROM mysql:8.0
+FROM mcr.microsoft.com/mssql/server:2019-latest
