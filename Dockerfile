@@ -1,1 +1,1 @@
-FROM tomcat:7.0.109-jre7
+FROM tomcat:7.0.61-jre7
