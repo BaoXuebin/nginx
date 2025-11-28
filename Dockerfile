@@ -1,1 +1,1 @@
-FROM mcr.microsoft.com/mssql/server:2019-latest
+FROM tomcat:7.0.61-jre7
