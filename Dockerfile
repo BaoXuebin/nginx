@@ -1,1 +1,1 @@
-FROM tomcat:8.5.100-jre8
+FROM node:20.19.6-slim
