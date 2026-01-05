@@ -1,1 +1,1 @@
-FROM node:20.19.6-slim
+FROM elastic/elasticsearch:9.2.3
