@@ -1,1 +1,1 @@
-FROM elastic/elasticsearch:8.19.9
+FROM davyinsa/elasticsearch-ik:8.12.2
