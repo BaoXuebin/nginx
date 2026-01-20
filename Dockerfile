@@ -1,1 +1,1 @@
-FROM davyinsa/elasticsearch-ik:8.12.2
+FROM onlyoffice/documentserver:7.5.1
