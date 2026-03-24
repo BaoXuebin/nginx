@@ -1,1 +1,1 @@
-FROM eclipse-temurin:17-jre
+FROM onlyoffice/documentserver:9.3
