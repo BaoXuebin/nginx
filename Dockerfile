@@ -1,1 +1,1 @@
-FROM minio/minio:RELEASE.2025-04-22T22-12-26Z
+FROM openjdk:26-ea-17-jdk-slim
