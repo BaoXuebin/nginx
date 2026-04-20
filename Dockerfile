@@ -1,1 +1,1 @@
-FROM openjdk:26-ea-17-jdk-slim
+FROM apache/rocketmq:5.3.0
