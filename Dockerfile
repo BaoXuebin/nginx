@@ -1,1 +1,1 @@
-FROM apache/rocketmq:5.3.0
+FROM apacherocketmq/rocketmq-dashboard:2.1.0
